@@ -61,7 +61,6 @@ function sum() {
 }
 
 function checkPrimeNumber(num) {
-	console.log(typeof num);
 	console.log(chalk.bgWhite.black.dim('Calculating...'));
 	setTimeout(() => {
 		console.log(`Provided date: ${userDateOfBirth}....`);
